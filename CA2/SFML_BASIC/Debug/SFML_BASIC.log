@@ -1,0 +1,12 @@
+﻿  main.cpp
+c:\college\year 4\graphics\graphics_assignment_two\ca2\sfml_basic\camera.h(19): warning C4305: 'initializing' : truncation from 'double' to 'float'
+c:\college\year 4\graphics\graphics_assignment_two\ca2\sfml_basic\main.cpp(148): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+c:\college\year 4\graphics\graphics_assignment_two\ca2\sfml_basic\main.cpp(157): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+c:\college\year 4\graphics\graphics_assignment_two\ca2\sfml_basic\main.cpp(163): warning C4551: function call missing argument list
+c:\college\year 4\graphics\graphics_assignment_two\ca2\sfml_basic\main.cpp(170): warning C4244: '+=' : conversion from 'float' to 'int', possible loss of data
+c:\college\year 4\graphics\graphics_assignment_two\ca2\sfml_basic\main.cpp(171): warning C4244: '+=' : conversion from 'float' to 'int', possible loss of data
+c:\college\year 4\graphics\graphics_assignment_two\ca2\sfml_basic\main.cpp(217): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+c:\college\year 4\graphics\graphics_assignment_two\ca2\sfml_basic\main.cpp(219): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+c:\college\year 4\graphics\graphics_assignment_two\ca2\sfml_basic\main.cpp(221): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+c:\college\year 4\graphics\graphics_assignment_two\ca2\sfml_basic\main.cpp(223): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+  SFML_BASIC.vcxproj -> C:\College\Year 4\Graphics\graphics_assignment_two\CA2\Debug\LightingAssessment.exe
