@@ -1,0 +1,38 @@
+﻿Build started 15/04/2016 20:32:14.
+     1>Project "G:\College\Year 4\Graphics\CA2\CA2\CA2\CA2.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\Program Files\SFML\SFML-2.3.2\include" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Main.cpp
+         Main.cpp
+     1>g:\college\year 4\graphics\ca2\ca2\ca2\chequeredfloor.h(33): warning C4805: '==' : unsafe mix of type 'int' and type 'bool' in operation
+     1>g:\college\year 4\graphics\ca2\ca2\ca2\drawable.h(47): warning C4018: '<' : signed/unsigned mismatch
+     1>g:\college\year 4\graphics\ca2\ca2\ca2\drawable.h(61): warning C4018: '<' : signed/unsigned mismatch
+     1>g:\college\year 4\graphics\ca2\ca2\ca2\truncatedcone.h(59): warning C4018: '<' : signed/unsigned mismatch
+     1>g:\college\year 4\graphics\ca2\ca2\ca2\truncatedcone.h(60): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>g:\college\year 4\graphics\ca2\ca2\ca2\torch.h(42): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>g:\college\year 4\graphics\ca2\ca2\ca2\bottle.h(81): warning C4018: '<' : signed/unsigned mismatch
+     1>g:\college\year 4\graphics\ca2\ca2\ca2\main.cpp(83): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>g:\college\year 4\graphics\ca2\ca2\ca2\main.cpp(84): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>g:\college\year 4\graphics\ca2\ca2\ca2\main.cpp(85): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>g:\college\year 4\graphics\ca2\ca2\ca2\main.cpp(86): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>g:\college\year 4\graphics\ca2\ca2\ca2\main.cpp(93): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>g:\college\year 4\graphics\ca2\ca2\ca2\main.cpp(103): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>g:\college\year 4\graphics\ca2\ca2\ca2\main.cpp(104): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>g:\college\year 4\graphics\ca2\ca2\ca2\main.cpp(105): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>g:\college\year 4\graphics\ca2\ca2\ca2\main.cpp(112): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>g:\college\year 4\graphics\ca2\ca2\ca2\main.cpp(146): warning C4305: 'initializing' : truncation from 'double' to 'GLfloat'
+     1>g:\college\year 4\graphics\ca2\ca2\ca2\main.cpp(147): warning C4305: 'initializing' : truncation from 'double' to 'GLfloat'
+     1>g:\college\year 4\graphics\ca2\ca2\ca2\vector.h(90): warning C4244: 'argument' : conversion from 'double' to 'const float', possible loss of data
+                 g:\college\year 4\graphics\ca2\ca2\ca2\vector.h(89) : while compiling class template member function 'yc::Vector<float> yc::Vector<float>::getUnitVector(void) const'
+                 g:\college\year 4\graphics\ca2\ca2\ca2\camera.h(74) : see reference to function template instantiation 'yc::Vector<float> yc::Vector<float>::getUnitVector(void) const' being compiled
+                 g:\college\year 4\graphics\ca2\ca2\ca2\object3d.h(20) : see reference to class template instantiation 'yc::Vector<float>' being compiled
+     1>g:\college\year 4\graphics\ca2\ca2\ca2\vector.h(106): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+                 g:\college\year 4\graphics\ca2\ca2\ca2\vector.h(99) : while compiling class template member function 'yc::Vector<float> yc::Vector<float>::rotateAroundAxis(yc::Vector<float>,float)'
+                 g:\college\year 4\graphics\ca2\ca2\ca2\object3d.h(68) : see reference to function template instantiation 'yc::Vector<float> yc::Vector<float>::rotateAroundAxis(yc::Vector<float>,float)' being compiled
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"G:\College\Year 4\Graphics\CA2\CA2\Debug\CA2.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Program Files\SFML\SFML-2.3.2\lib\\" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"G:\College\Year 4\Graphics\CA2\CA2\Debug\CA2.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"G:\College\Year 4\Graphics\CA2\CA2\Debug\CA2.lib" /MACHINE:X86 Debug\Main.obj
+     1>sfml-graphics-d.lib(sfml-graphics-d-2.dll) : fatal error LNK1112: module machine type 'x64' conflicts with target machine type 'X86'
+     1>Done Building Project "G:\College\Year 4\Graphics\CA2\CA2\CA2\CA2.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:01.32
